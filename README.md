@@ -1,4 +1,4 @@
-#TypeScript User App
+# TypeScript User App
 
 Fetches and Maintains data from https://randomuser.me using React Query. 
 Displays users and allows for exploration of a particular user. 
