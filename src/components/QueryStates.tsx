@@ -7,7 +7,7 @@ interface QueryProps {
 let QueryStates: FC<QueryProps> = (props) => {
   return (
     <div className="w-full h-[100vh] bg-gray-700 flex justify-center items-center">
-      <h1 className="text-7xl font-bold text-white tracking-wider uppercase">
+      <h1 className="text-5xl font-bold text-white tracking-wider uppercase">
         {props.text}
       </h1>
     </div>

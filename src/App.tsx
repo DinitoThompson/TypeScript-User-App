@@ -10,14 +10,17 @@ import { useState } from "react";
 
 function App() {
   const [user, setUser] = useState<UserState>({
-    picture: "Change",
-    name: "Change",
-    gender: "Change",
-    age: "Change",
-    email: "Change",
-    phone: "Change",
-    country: "Change",
+    picture: "",
+    name: "",
+    gender: "",
+    age: "",
+    email: "",
+    phone: "",
+    cell: "",
+    country: "",
+    address: "",
   });
+
   return (
     <div className="App">
       <UserContext.Provider value={user}>

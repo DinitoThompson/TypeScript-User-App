@@ -39,7 +39,9 @@ const Home: React.FC<HomeProps> = (props) => {
       age: data[userID].dob.age,
       email: data[userID].email,
       phone: data[userID].phone,
+      cell: data[userID].cell,
       country: data[userID].location.country,
+      address: data[userID].location.city + ", " + data[userID].location.state,
     });
   }
 
@@ -57,7 +59,8 @@ const Home: React.FC<HomeProps> = (props) => {
 
   if (isLoading) return <QueryStates text="Fetching Data" />;
 
-  if (isError) return <QueryStates text="Error Fetching Users..." />;
+  if (isError)
+    return <QueryStates text="Error Fetching Users... <br /> Please Wait..." />;
 
   return (
     <div className="flex items-center justify-center h-[100vh] w-full bg-gradient-to-tr from-red-300 via-purple-500 to-red-300">

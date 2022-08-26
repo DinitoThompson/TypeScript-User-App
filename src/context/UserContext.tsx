@@ -1,13 +1,15 @@
 import { createContext } from "react";
 
 const initialState = {
-  picture: "initialState",
-  name: "initialState",
-  gender: "initialState",
-  age: "initialState",
-  email: "initialState",
-  phone: "initialState",
-  country: "initialState",
+  picture: "",
+  name: "",
+  gender: "",
+  age: "",
+  email: "",
+  phone: "",
+  cell: "",
+  country: "",
+  address: "",
 };
 
 export type UserState = typeof initialState;
