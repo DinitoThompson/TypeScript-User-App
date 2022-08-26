@@ -1,3 +1,8 @@
+# TypeScript User App
+
+Fetches and Maintains data from https://randomuser.me using React Query. 
+Displays users and allows for exploration of a particular user. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
